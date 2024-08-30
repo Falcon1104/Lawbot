@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styling.css">
+    <title>Lawyers-advice</title>
+    <style>
+
+        input[type="text"],input[type="tel"],input[type="email"]{
+
+            border-style: hidden;
+            box-shadow: 0 4px 8px rgba(11, 1, 104, 0.3);
+            background-color: whitesmoke;
+
+        }
+
+        input[type="submit"],input[type="reset"]{
+
+            border-style: hidden;
+            width:70px;
+            height:35px;
+            box-shadow: 0 4px 8px rgba(11, 1, 104, 0.2);
+            font-weight: bolder;
+            color: rgb(78, 75, 75);
+
+        }
+        select{
+            border-style:  none;
+            box-shadow: 0 4px 8px rgba(11, 1, 104, 0.3);
+            background-color: whitesmoke;
+            width: 150px;
+            height: 40px   ;
+            border-radius: 15px;
+            margin-top:10px;
+
+        }
+
+        textarea{
+        
+            border-style: hidden;
+            box-shadow: 0 4px 8px rgba(11, 1, 104, 0.3);
+            background-color: whitesmoke;
+
+        }
+
+        input[type="reset"]:hover{
+
+            box-shadow: 0 4px 8px rgba(11, 1, 104, 0.4);
+        }
+
+                
+
+        </style>
+</head>
+<body>
+
+    <div class="header" style="margin-bottom: 20px;">
+
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/000/585/313/small/07-03.jpg">
+        <h1 style="margin-left: 580px;">Lawyer's advice</h1>
+
+        <div class="wrapper">
+        <nav>
+
+            <a href="chatBot2.html">Lawbot</a>
+            <a href="user's-profile.html">User-profile</a>
+            <a href="ongoingCases.html">Current-cases</a>
+            <a href="mainPage.html" style="margin-right: 30px;">Logout</a>
+
+        </nav>
+        </div>
+                    
+        </div>
+
+
+   <div style="display: inline-flex;margin-top: 120px;">
+
+        <div class="chatBox" >
+            <div class="chats" >
+
+                <img src="https://c8.alamy.com/comp/2GE26G1/advocate-or-lawyer-person-profile-avatar-vector-icon-illustration-simple-cartoon-icon-2GE26G1.jpg">
+                </img>
+                
+                <p><a href="advocates_profile.html">ADV 1</a></p>
+                
+
+                </div>
+                <div class="chats">
+                    <img src="https://c8.alamy.com/comp/2GE26G1/advocate-or-lawyer-person-profile-avatar-vector-icon-illustration-simple-cartoon-icon-2GE26G1.jpg">
+                </img>
+                <p><a href="advocates_profile.html">ADV 2</a></p>
+    
+            </div>
+
+            </div>
+
+            <div class="advice-form" style="margin-bottom: 150px;">
+
+                <form >
+                    <label for="email">Your Email :</label>
+                        <input type="email" name="email" id="email">
+
+                    <label for="advEmail">Adv's Email :</label>
+                         <input type="email" id="advEmail" name="advEmail">
+        
+                    <label for="Name">Name :</label>
+                        <input type="text" name="name" id="Name">
+        
+                    <label for="ph-number">PH-NO :</label>
+                        <input type="tel" name="ph-number" id="ph-number">
+
+                    <label for="type">Type :</label>
+                         <select id="type">
+                            <option>Criminal</option>
+                            <option>Domestic</option>
+                            <option>Real-estate</option>
+                            <option>Family</option>
+                            </select><br><br>
+        
+                    <label for="subject">Sub :</label>
+                         <input type="text" id="subject" name="subject">
+                         
+                    <label >Problem :</label>     
+                    <textarea name="data" id="data">
+                        </textarea>
+                     <div style="display:flex;">
+                    <input type="submit" value="Send Mail">
+                    <input type="reset" style="margin-top:20px;">
+                     </div>
+                    </form>
+        
+        
+        
+                </div>
+           
+    </div>
+
+
+   
+        <footer>
+
+            <p>&copy; 2024 LawBot. All rights reserved.</p>
+
+            </footer>
+    
+</body>
+</html>

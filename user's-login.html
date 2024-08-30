@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styling.css">
+    <title>User's login</title>
+</head>
+<body>
+    <div class="header" id="header">
+        <img  src="https://static.vecteezy.com/system/resources/thumbnails/000/585/313/small/07-03.jpg" alt="Logo">
+        <h1>User's Login</h1>
+        <nav>
+            <a href="mainPage.html" style="margin-right: 30px;">Main </a>
+            </nav>
+        </div> 
+
+        <center>
+        <div class="form" style="margin-top:180px;">
+            <form>
+                <label for="name">Name :</label>
+                <input type="text" name="name" id="name">
+                <label for="password">Password :</label>
+                <input type="password" name="password" id="password">
+                <input type="button" value="Submit" onclick="changePage()" style="text-align: center;">
+                </form>
+                <pre style="font-size: large;">   <a href="user's-registration.html">Sign-up</a>               <a href="forget-password.html">Forget-password</a></pre>
+            </div>
+        </center>
+        <script type="text/javascript">
+            function changePage(){
+
+
+                console.log("Changing to new page");
+                // Redirect to the new page
+                window.location.href = "user's-main.html";
+
+            }
+
+        </script>
+        
+
+        <footer>
+
+            <p> &copy; 2024 LawBot. All rights reserved.</p>
+
+            </footer>
+</body>
+</html>

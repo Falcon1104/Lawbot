@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lawyers-main</title>
+    <link rel="stylesheet" href="styling.css">
+ 
+    <style>
+        .cards-data {
+            width: 270px;
+            height: 260px;
+            background-color: white;
+            border-radius: 40px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            margin-top: 20px;
+            transition: all 0.3s ease; /* Smooth transition for the hover effect */
+        }
+    
+        .cards-data:hover {
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /* Increase the shadow effect */
+            transform: translateY(-5px); /* Slight upward movement on hover */
+        }
+    
+        .cards-data img {
+            width: 100%;
+            height: 45%;
+        }
+    
+        a {
+            color: black;
+            text-decoration: none;
+        }
+    
+        th, td {
+            padding: 30px;
+        }
+    </style>
+    
+
+</head>
+<body>
+
+    <div class="header"> <img src="https://static.vecteezy.com/system/resources/thumbnails/000/585/313/small/07-03.jpg"><h1>Lawyer's Main</h1></div>
+<div style="margin-top: 120px;margin-left:150px;">
+    <table >
+        <tr>
+            <td>
+
+                <div  class="cards-data" style="margin-left:200px;"  onmouseenter="displayDetailsProfile()">
+
+                    <img src="https://png.pngtree.com/png-vector/20190710/ourlarge/pngtree-business-user-profile-vector-png-image_1541960.jpg">
+                    <h1 style="margin-left:60px;margin-top:50px;" id="profile-card"><a href="layers_profile.html">PROFILE</a></h1>
+                </div>
+            </td>
+            <td>
+
+                <div class="cards-data" style="margin-left: 250px;">
+                      <img  src="https://cdn2.iconfinder.com/data/icons/insurance-156/60/legal__file__court__document__law-256.png">
+                      <h1  style="margin-left:60px;margin-top:50px;">CUR-CASES</h1>
+
+                </div>
+
+
+
+            </td>
+        </tr>
+        <tr>
+            <td> <div  class="cards-data" style="margin-left:200px;margin-top:40px;margin-bottom:80px;">
+
+                <img src="https://clipground.com/images/asking-advice-clipart-transparent.png">
+                <h1  style="margin-left:30px;margin-top:50px;"><a href="advice-req-lawyer.html">ADVICE-REQ</a></h1>
+            </div>
+        
+        </td>
+            <td>
+                <div class="cards-data" style="margin-left: 250px;margin-top:40px;margin-bottom:80px;">
+                    <img src="https://cdn4.iconfinder.com/data/icons/law-and-justice-41/512/law-file-Court-trial-case-256.png">
+                    <h1  style="margin-left:35px;margin-top:50px;">PAST-CASES</h1>
+
+              </div>
+                
+
+
+            </td>
+        </tr>
+    </table>
+   </div> 
+
+    
+    <footer><p>&copy;Lawbot 2024 . All rights reserved. </p></footer>
+</body>
+</html>

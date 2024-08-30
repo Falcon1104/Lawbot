@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styling.css">
+    <style>
+        input[type="text"]{
+
+            border-radius:10px;
+            box-shadow: 0 4px 8px rgba(3, 64, 177, 0.2);
+            border-style:initial;
+            margin-top:15px;
+            
+        }
+
+        input[type="text"]:hover{
+           
+            box-shadow: 0 4px 8px rgba(3, 64, 177, 0.7);
+
+        }
+        input[type="text"]:focus{
+
+            border-style:hidden;
+        }
+        label{
+            font-weight: bolder;
+        }
+        </style>
+</head>
+<body>
+    <div class="header">
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/000/585/313/small/07-03.jpg">
+        <h1 style="margin-left: 600px;">Feedback</h1>
+
+        <ul style="margin-right: 40px;font-size: large;">
+            <li><a href="user's-main.html">Home</a></li>
+            <li><a href="mainPage.html">Logout</a></li>
+        </ul>
+    </div>
+
+    <div class="advice-form" style="margin-top:170px;margin-left:300px;display: block;width:fit-content;height: fit-content;margin-bottom:180px;">
+        <img src="https://icon-library.com/images/google-forms-icon/google-forms-icon-29.jpg" width="150px" height="150px" style="border-radius:50px;margin-left:230px;margin-top:35px;margin-bottom:50px;">
+        <hr>
+        <div style="display:inline;">
+            <div style="display: flexbox;">
+                <label for="lawyers-name">Lawyers-Name :</label>
+                <input type="text" id="lawyers-name">
+
+                <label for="case-type">Case-type :</label>
+                <input type="text" id="case-type"> 
+            </div>
+
+            <div style="display: block;">
+                <label for="lawyers-id">Id :</label>
+                <input type="text" id="lawyers-id" style="margin-left:100px;">
+
+                <label for="exp">Layer's Exp :</label>
+                <input type="text" id="exp">
+            </div>
+
+            <div style="display: block;margin-bottom:35px;">
+                <label for="sub">Case-subject :</label>
+                <input type="text" id="sub" style="margin-left:35px;">
+
+                <label for="Case-descryption">Case-descryption :</label>
+                <input type="text" id="Case-descryption">
+            </div>
+        </div>
+       <hr>
+        <div style="display: inline;margin-top:50px">
+            <label><b>Feedback :</b></label>
+            <label class="star-label">
+                <input type="radio"  value="1" id="rad1">
+                <span class="star">&#9733;</span>
+            </label>
+            <label class="star-label">
+                <input type="radio"  value="2" id="rad2">
+                <span class="star">&#9733;</span>
+            </label>
+            <label class="star-label">
+                <input type="radio"  value="3" id="rad3">
+                <span class="star">&#9733;</span>
+            </label>
+            <label class="star-label">
+                <input type="radio"  value="4" id="rad4">
+                <span class="star">&#9733;</span>
+            </label>
+            <label class="star-label">
+                <input type="radio"  value="5" id="rad5">
+                <span class="star">&#9733;</span>
+            </label>
+        </div>
+        <div style="margin-top:25px;margin-bottom:80px;padding-bottom:40px;">
+           <center>
+            <input type="submit" style="border-style: hidden;width: 150px;height:50px;border-radius:10px;box-shadow: 0 4px 8px rgba(3, 64, 177, 0.5);">
+            <input type="reset" style="border-style: hidden;width: 150px;height:50px;border-radius:10px;box-shadow:  0 4px 8px rgba(3, 64, 177, 0.5);">
+          </center>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; LawBot 2024. All rights reserved</p>
+    </footer>
+</body>
+</html>

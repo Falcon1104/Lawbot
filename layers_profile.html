@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lawyer's Profile</title>
+    <link rel="stylesheet" href="styling.css">
+
+    <style>
+
+        #prof-cards{
+
+             margin-top: 120px;
+             margin-left: 480px;
+             background-color: white;
+             width:fit-content;
+             border-style: groove;
+             border-radius: 25px ;
+             padding: 20px;
+        }
+          
+        #sub,#res{
+
+            width:250px;
+            height:50px;
+            border-radius:15px;
+            background-color: rgba(17, 173, 220, 0.975);
+            font-size: large;
+            font-weight: bold;
+            color: white;
+            border-style: none;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        input[type="text"],input[type="email"],input[type="tel"]{
+
+            border-radius:10px;
+            background-color: azure;
+            border-style: none;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            outline: none;
+            text-align: center;
+            font-weight: bold;
+            color: rgb(32, 31, 31);
+        }
+
+        input[type="text"]::selection, 
+        input[type="email"]::selection, 
+        input[type="tel"]::selection {
+                border: none;
+                outline: none;
+                background: rgba(17, 173, 220, 0.2);
+                color: inherit; 
+           }
+        
+
+    
+
+    </style>
+
+</head>
+<body>
+
+    <div class="header">
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/000/585/313/small/07-03.jpg">
+
+        <h1 style="margin-left: 590px;">Layer's Profile</h1>
+        <nav style="margin-right:80px;"><ul><li><a href="lawyers-main.html">Home</a></li>
+        <li><a href="#">Consult</a></li>
+        <li><a href="#">Cases</a></li>
+        </ul></nav>
+
+    </div>
+    <div id="prof-cards">
+    <form>
+        <table >
+            <tr ><td colspan="4"><img src="https://www.pngall.com/wp-content/uploads/5/Male-Lawyer-PNG-Image.png" width="150px" height="150px" style="margin-left:210px;border-radius:45px;"> </tr>
+            <tr><td colspan="4"><hr></td></tr>
+            <tr ><td><b>Name :</b></td><td><input type="text" id="lw_name"></td><td><b>Email:</b></td><td><input type="email" id="lw_mail"></td></tr>
+            <tr><td><b>Contact :</b></td><td><input type="tel" id="lw_phn"></td><td><b>Address :</b></td><td><input type="text" id="lw_address"></td></tr>
+            <tr><td><b>Speciality :</b></td><td><input type="text" id="lw_speciality"></td><td><b>No of cases :</b></td><td><input type="text" id="lw_nof"></td></tr>
+            <tr><td><b>University :</b></td><td><input type="text" id="lw_university"></td><td><b>Rank :</b></td><td><input type="text" id="lw_rank" readonly></td>
+            <tr><td colspan="2"><input type="submit" value="Edit" id="sub"></td><td colspan="2"><input type="reset" id="res"></td></tr>
+        </table>
+
+        
+
+    </form>
+
+    </div>
+
+    <footer><p>&copy;Lawbot 2024.All rights reserved</p></footer>
+</body>
+</html>

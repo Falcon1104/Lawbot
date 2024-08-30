@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case-details</title>
+    <link rel="stylesheet" href="styling.css">
+
+    <style >
+        input[type="text"],input[type="tel"],input[type="email"]{
+
+       border-style: hidden;
+       box-shadow: 0 4px 8px rgba(11, 1, 104, 0.3);
+       background-color: whitesmoke;
+
+}
+
+input[type="submit"],input[type="reset"]{
+
+border-style: hidden;
+width:70px;
+height:35px;
+box-shadow: 0 4px 8px rgba(11, 1, 104, 0.2);
+font-weight: bolder;
+color: rgb(78, 75, 75);
+
+}
+
+textarea{
+
+border-style: hidden;
+box-shadow: 0 4px 8px rgba(11, 1, 104, 0.3);
+background-color: whitesmoke;
+
+}
+
+input[type="reset"]:hover{
+
+box-shadow: 0 4px 8px rgba(11, 1, 104, 0.4);
+}
+
+
+        </style>
+
+</head>
+<body>
+   
+    <div class="header" style="margin-bottom: 20px;">
+
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/000/585/313/small/07-03.jpg">
+        <h1 style="margin-left: 580px;">Case-details</h1>
+        <ul style="margin-right: 40px;font-size: large;">
+            <li><a href="user's-main.html">Home </a></li>
+            <li><a href="mainPage.html">Logout</a></li>
+
+        </ul>
+        </div>
+
+        <div class="advice-form" style="margin-top:150px;margin-left:350px;padding: 40px;width:800px;">
+
+        
+
+            <table rows="*" cols="2" border="3" style="margin-bottom:80px;">
+                <tr>
+                    <td colspan="2" >
+
+                        <img src="https://lawware.co.uk/wp-content/uploads/2021/08/balance.svg" style="width:150px;height:150px;border-radius:50px;margin-left:300px;">
+
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td>
+                        <label for="case-title">Case-title :</label>
+
+
+                    </td>
+                    <td>
+                        <label for="advocate-name">Adv's-Name :</label>
+                    
+                    </td>
+
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="text" id="case-title">
+
+
+                    </td>
+                    <td>
+                        <input  type="text"  id="advocate-name">
+                    
+                    </td>
+
+
+                </tr>
+
+                <tr>
+                    <td>
+                       <label for="subject">Subject :</label>
+                    </td>
+                    <td>
+                       <label for="status">Case-Status :</label>
+                    </td>
+
+                </tr>
+
+                <tr>
+                    <td><input type="text" id="subject"> </td>
+                    <td><input type="text" id="status"></td>
+
+                </tr>
+
+                <tr>
+                    <td colspan="2"><label id="Case-details">Case-details :</label></td>
+                    
+
+                </tr>
+
+                <tr>
+                    <td colspan="2"><textarea id="Case-details" cols="100" rows="7"></textarea></td>
+                    
+
+                </tr>
+               
+                <tr>
+                    <td colspan="2">
+                        <div style="display: inline; margin-top:50px">
+                            <label><b>Rating :</b></label>
+                            <label class="star-label">
+                                <input type="radio" value="1" id="rad1">
+                                <span class="star">&#9733;</span>
+                            </label>
+                            <label class="star-label">
+                                <input type="radio" value="2" id="rad2">
+                                <span class="star">&#9733;</span>
+                            </label>
+                            <label class="star-label">
+                                <input type="radio" value="3" id="rad3">
+                                <span class="star">&#9733;</span>
+                            </label>
+                            <label class="star-label">
+                                <input type="radio" value="4" id="rad4">
+                                <span class="star">&#9733;</span>
+                            </label>
+                            <label class="star-label" >
+                                <input type="radio" value="5" id="rad5">
+                                <span class="star">&#9733;</span>
+                            </label>
+                        </div>
+                    </td>
+                </tr>
+                
+
+
+            </table>
+                    
+        </div>
+        <footer>
+            <p>&copy; LawBot 2024. All rights reserved</p>
+
+            </footer>
+    
+</body>
+</html>
